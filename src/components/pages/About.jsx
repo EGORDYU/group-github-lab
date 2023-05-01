@@ -16,7 +16,7 @@ export default function About() {
             </ul>
             <ul> 
                 <li>Gloree</li>
-               
+                <li><img src={process.env.PUBLIC_URL + "/spiritcat.jpeg"} /></li>
                     <p>Cat and Pasta Lover</p>
             </ul>
         </>
