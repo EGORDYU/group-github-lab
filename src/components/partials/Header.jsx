@@ -8,12 +8,15 @@ export default function Header() {
                     listStyleType: "none",
                     textDecoration: "none"
                     }}>
-                    <Link to="/about">About Us</Link>
-                
+                    <Link to="/">Home</Link>
                 </li>
-                 <li>
-                <Link to="/">Home</Link>
-            </li>
+                <li style={{
+                    listStyleType: "none",
+                    textDecoration: "none"
+                    }}>
+                    <Link to="/about">About Us</Link>
+                    
+                </li>
             </ul>
 
            

@@ -25,7 +25,7 @@ function App() {
               element={<About />}
             />
           </Routes>
-        
+
       </Router>
 
     </div>
