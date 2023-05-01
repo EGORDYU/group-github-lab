@@ -6,6 +6,7 @@ import {
 
 import Home from './components/pages/Home';
 import Header from './components/partials/Header';
+import About from './components/pages/About';
 import './App.css';
 
 function App() {
