@@ -1,13 +1,18 @@
+
 export default function About() {
     return (
         <>
             <ul> 
                 <li>Egor</li>
-                    <p></p>
+                <li><img src={process.env.PUBLIC_URL + "/owlavatar.png"} /></li>
+
+                    
             </ul>
+          
             <ul> 
                 <li>Garrett</li>
-                    <p></p>
+                <li><img src={process.env.PUBLIC_URL + "/bearavatar.jpeg"} /></li>
+
             </ul>
             <ul> 
                 <li>Gloree</li>
