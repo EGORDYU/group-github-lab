@@ -11,6 +11,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+
       <Router>
         <Header>
           <Routes>
@@ -25,6 +26,7 @@ function App() {
           </Routes>
         </Header>
       </Router>
+
     </div>
   );
 }

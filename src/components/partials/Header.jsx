@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom'
 export default function Header() {
     return (
@@ -8,8 +9,15 @@ export default function Header() {
                     textDecoration: "none"
                     }}>
                     <Link to="/about">About Us</Link>
+                
                 </li>
+                 <li>
+                <Link to="/">Home</Link>
+            </li>
             </ul>
+
+           
+
         </nav>
     )
 }
