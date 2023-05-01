@@ -1,14 +1,23 @@
-import { Link } from "react-router-dom"
 
+import { Link } from 'react-router-dom'
 export default function Header() {
     return (
         <nav>
-            <p>
+            <ul>
+                <li style={{
+                    listStyleType: "none",
+                    textDecoration: "none"
+                    }}>
+                    <Link to="/about">About Us</Link>
+                
+                </li>
+                 <li>
                 <Link to="/">Home</Link>
-            </p>
-            <p>
-                <Link to="/aboutus">About Us</Link>
-            </p>
+            </li>
+            </ul>
+
+           
+
         </nav>
     )
 }
