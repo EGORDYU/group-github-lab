@@ -5,7 +5,7 @@ export default function About() {
             <ul> 
                 <li><strong>Egor</strong></li>
                 <li><img src={process.env.PUBLIC_URL + "/owlavatar.png"} /></li>
-                <li></li>
+                <li>Boxing & Sleeping Appreciator</li>
             </ul>
           
             <ul> 
