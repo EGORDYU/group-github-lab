@@ -3,19 +3,20 @@ export default function About() {
     return (
         <>
             <ul> 
-                <li>Egor</li>
+                <li><strong>Egor</strong></li>
                 <li><img src={process.env.PUBLIC_URL + "/owlavatar.png"} /></li>
+                <li></li>
             </ul>
           
             <ul> 
-                <li>Garrett</li>
+                <li><strong>Garrett</strong></li>
                 <li><img src={process.env.PUBLIC_URL + "/bearavatar.jpeg"} /></li>
                 <li>Food & Hibernation Enjoyer</li>
             </ul>
             <ul> 
-                <li>Gloree</li>
+                <li><strong>Gloree</strong></li>
                 <li><img src={process.env.PUBLIC_URL + "/spiritcat.png"} /></li>
-                    <p>Cat and Pasta Lover</p>
+                <li>Cat and Pasta Lover</li>
             </ul>
         </>
     )
