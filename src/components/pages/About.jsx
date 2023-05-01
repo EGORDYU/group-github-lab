@@ -11,6 +11,7 @@ export default function About() {
             </ul>
             <ul> 
                 <li>Gloree</li>
+               
                     <p>Cat and Pasta Lover</p>
             </ul>
         </>
